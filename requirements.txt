@@ -11,6 +11,7 @@ pymupdf4llm
 # Common Requirements
 torch
 numpy
+sympy
 transformers
 datasets
 tiktoken

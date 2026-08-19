@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "annealed_subtree_search",
+    "Title": "Simulated Annealing over Expression Trees for Symbolic Law Discovery",
+    "Experiment": "Replace uniform random search in propose_candidate with simulated annealing: maintain a current tree, propose local edits (replace a random subtree with a fresh random subtree, change an operator, or swap a leaf), accept by the Metropolis criterion on log-NRMSE with a geometric temperature schedule, and restart from a fresh random tree when stuck. Compare solve rate, verified rate, and evals_to_solve against the random-search baseline across all benchmarks.",
+    "Interestingness": 6,
+    "Feasibility": 9,
+    "Novelty": 4
+  }
+]
